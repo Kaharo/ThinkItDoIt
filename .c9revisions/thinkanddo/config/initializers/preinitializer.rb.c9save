@@ -1,0 +1,2 @@
+{"ts":1374476987093,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1374477037636,"patch":[[{"diffs":[[1,"begin \r\n  # Require the preresolved locked set of gems. \r\n  require File.expand_path('../../.bundle/environment', __FILE__) \r\nrescue LoadError \r\n  # Fallback on doing the resolve at runtime. \r\n  require \"rubygems\" \r\n  require \"bundler\" \r\n  Bundler.setup \r\nend"]],"start1":0,"start2":0,"length1":0,"length2":259}]],"length":259,"saved":false}
